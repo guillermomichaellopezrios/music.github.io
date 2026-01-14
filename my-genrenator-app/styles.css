@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #1a1a2e;
+  color: #e0e0e0;
+  margin-top: 80px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+#genreDisplay {
+  margin: 20px 0;
+  font-size: 1.5rem;
+  min-height: 3rem;
+  padding: 15px;
+  border: 2px solid #4e4e50;
+  border-radius: 8px;
+  background: #16213e;
+}
+
+button {
+  padding: 10px 25px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background: #0f3460;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+button:hover {
+  background: #53354a;
+}
