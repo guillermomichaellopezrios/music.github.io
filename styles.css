@@ -1,36 +1,60 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background: #1a1a2e;
-  color: #e0e0e0;
+  background: linear-gradient(135deg, #e0e5ec, #f5f7fa);
+  color: #2b2b2b;
   margin-top: 80px;
 }
 
+/* Contenedor principal */
 .container {
   max-width: 500px;
   margin: auto;
+  padding: 30px;
+  border-radius: 25px;
+  background: #e0e5ec;
+  box-shadow:
+    12px 12px 24px rgba(163, 177, 198, 0.6),
+    -12px -12px 24px rgba(255, 255, 255, 0.8);
 }
 
+/* Caja del género */
 #genreDisplay {
-  margin: 20px 0;
-  font-size: 1.5rem;
+  margin: 25px 0;
+  font-size: 1.4rem;
   min-height: 3rem;
-  padding: 15px;
-  border: 2px solid #4e4e50;
-  border-radius: 8px;
-  background: #16213e;
+  padding: 20px;
+  border-radius: 20px;
+  background: #e0e5ec;
+  box-shadow:
+    inset 6px 6px 12px rgba(163, 177, 198, 0.6),
+    inset -6px -6px 12px rgba(255, 255, 255, 0.8);
 }
 
+/* Botón clay */
 button {
-  padding: 10px 25px;
+  padding: 12px 30px;
   font-size: 1.1rem;
   cursor: pointer;
-  background: #0f3460;
+  border-radius: 30px;
   border: none;
-  border-radius: 5px;
-  color: white;
+  background: #e0e5ec;
+  color: #333;
+  box-shadow:
+    8px 8px 16px rgba(163, 177, 198, 0.6),
+    -8px -8px 16px rgba(255, 255, 255, 0.8);
+  transition: all 0.2s ease;
 }
 
+/* Efecto presionado */
 button:hover {
-  background: #53354a;
+  box-shadow:
+    4px 4px 8px rgba(163, 177, 198, 0.6),
+    -4px -4px 8px rgba(255, 255, 255, 0.8);
+}
+
+button:active {
+  box-shadow:
+    inset 4px 4px 8px rgba(163, 177, 198, 0.6),
+    inset -4px -4px 8px rgba(255, 255, 255, 0.8);
 }
